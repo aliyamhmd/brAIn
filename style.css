@@ -1,0 +1,48 @@
+/* Card & Container Utama */
+.main-card {
+    background: linear-gradient(135deg, #1E88E5 0%, #1565C0 100%);
+    color: white;
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(30, 136, 229, 0.15);
+    margin-bottom: 25px;
+}
+
+.main-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sub-title {
+    font-size: 0.95rem;
+    opacity: 0.9;
+}
+
+/* Glassmorphism Status Box */
+.info-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+    margin-bottom: 20px;
+}
+
+/* Custom List Gejala */
+.gejala-item {
+    background-color: #e45406;
+    padding: 8px 12px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+    border-left: 3px solid #1E88E5;
+    font-size: 0.9rem;
+}
+
+/* Mengatur lengkungan gambar ikon sidebar */
+.sidebar-icon-img {
+    border-radius: 20%!important; /* Nilai piksel makin besar = makin melengkung */
+    overflow: hidden;               /* Memotong sisa background gambar yang keluar dari lengkungan */
+    object-fit: cover;
+}
